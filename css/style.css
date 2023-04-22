@@ -5,11 +5,58 @@ body, ul{
     padding: 0px;
 }
 
-#menu{
-    height: 80px;
-    width: 80%;
+#header #menu a { 
+    color: rgb(67, 142, 228);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    transition: 0.3s;
+}
+#header #menu a:hover {
+    font-size: 1.6em;
+    transition: 0.3s;
+    text-shadow: 2px 2px 4px #fffefe7a;
+
+}
+#logo img:hover {
+    box-shadow: 4px 4px 6px #ffffff7a;
+    transition: 0.3s;
+
 }
 
-#menu #logo img{
-    height: 50px;
+#logo img{
+    float: left;
+    height: 55px;
+    position: relative;
+    top: 0px;
+    left: 0px;
 }
+#header{
+    width: 100%;
+    position: fixed;
+    z-index: 90;
+    box-sizing: border-box;
+    height: 70px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #383737 ;
+}
+#menu {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+}
+#btn-mobile {
+    display: none;
+}
+#carouselExampleInterval {
+    position: relative;
+    z-index: 10;
+    padding-top: 80px;
+}
+
+
+
