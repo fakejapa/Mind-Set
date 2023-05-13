@@ -92,14 +92,14 @@ body, ul{
     }
     #hamburger {
         border-top: 3px solid;/* Melhorando o hamburger >> Espessura de cada linha*/
-        width: 25px;/* Melhorando o hamburger >> Largura */
+        width: 3.5px;/* Melhorando o hamburger >> Largura */
         color: #2e1b8e;/* Alterando a cor do hamburger */
     }
     #hamburger::after,
     #hamburger::before {
         content: '';
         display: block;
-        width:25px;/* Melhorando o hamburger >> Largura */
+        width:35px;/* Melhorando o hamburger >> Largura */
         height: 2px;
         background: currentColor;
         margin-top: 6px;/* Melhorando o hamburger >> Espaçamento entre o hamburger */
